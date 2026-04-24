@@ -152,6 +152,136 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ISI-Connector_Generic:XT60_M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CON 1x2 POLARIZED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "ISI-Connector_Generic:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CON{space}TERMINAL{space}XT30U-M{space}5mm{space}1x2{space}Male{space}30A{space}TH{space}V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XT60_M_1_0"
+				(rectangle
+					(start 5.08 0)
+					(end 0 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "(+)"
+					(at 0 -3.302 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "(-)"
+					(at 0 -5.842 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ISI-Connector_JST:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -856,494 +986,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ISI-Connector_PinHeader_2.54mm:Conn_01x06_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x06_Pin"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ISI-Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Long_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x06_Pin_1_1"
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ISI-Connector_Wurth:691321100002"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -4.99 -1.205 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "691321100002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "ISI-Connector_Wurth:691321100002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/redexpert/spec/691321100002?ae"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SERIE 3211 - 3.50MM VERTICAL PCB HEADER WR-TBL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ParteNumber" "691321100002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Emplacement" "à déterminer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "691321100002_0_0"
-				(rectangle
-					(start -3.81 -2.54)
-					(end 1.27 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -5429,6 +5071,16 @@
 		)
 		(uuid "4858f606-a9a1-4d69-b95b-f4a20a8d943b")
 	)
+	(text "+VBatt"
+		(exclude_from_sim no)
+		(at 22.352 248.158 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5223487a-0a83-4254-be62-8774d5d437fe")
+	)
 	(text "E+"
 		(exclude_from_sim no)
 		(at 85.852 169.164 0)
@@ -5504,18 +5156,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7904a067-a34e-45cc-9efd-c45a9f3ef6aa")
-	)
-	(junction
-		(at 203.2 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cac0617-eee2-4988-be78-7605b48befdb")
-	)
-	(junction
-		(at 186.69 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81c945b0-f98f-431e-be48-97c58f834db2")
 	)
 	(junction
 		(at 157.48 200.66)
@@ -6613,16 +6253,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 22.86) (xy 77.47 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8996d301-ef5b-4885-bca4-07d7f7c5c435")
-	)
-	(wire
-		(pts
 			(xy 227.33 132.08) (xy 306.07 132.08)
 		)
 		(stroke
@@ -6853,6 +6483,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 33.02) (xy 203.2 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfbe2c9-bf45-4f6e-b25c-bcfb9ed350ac")
+	)
+	(wire
+		(pts
 			(xy 261.62 114.3) (xy 269.24 114.3)
 		)
 		(stroke
@@ -6860,16 +6500,6 @@
 			(type default)
 		)
 		(uuid "ae03dfaa-29df-4e29-b527-42f1ec72f7be")
-	)
-	(wire
-		(pts
-			(xy 203.2 29.21) (xy 203.2 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b13c9661-4ed1-4620-a235-5eae1011199d")
 	)
 	(wire
 		(pts
@@ -7213,6 +6843,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 30.48) (xy 186.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd70f0ca-21ab-47c4-b805-adca9fd6f0ff")
+	)
+	(wire
+		(pts
 			(xy 59.69 170.18) (xy 64.77 170.18)
 		)
 		(stroke
@@ -7230,16 +6870,6 @@
 			(type default)
 		)
 		(uuid "e01ae51c-fbad-4c0c-8fab-cdda578b6b10")
-	)
-	(wire
-		(pts
-			(xy 186.69 30.48) (xy 186.69 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e05fe5ce-2024-4991-9a60-f966a27db7b8")
 	)
 	(wire
 		(pts
@@ -7270,16 +6900,6 @@
 			(type default)
 		)
 		(uuid "e2f3de70-cfca-4be6-b7af-ed7a1a21a58e")
-	)
-	(wire
-		(pts
-			(xy 203.2 33.02) (xy 203.2 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e46170b8-bd04-4bd7-8ce3-7d6ce2f48cc2")
 	)
 	(wire
 		(pts
@@ -7453,16 +7073,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 26.67) (xy 186.69 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fce5ca45-7b66-477c-8355-2987ac7213a5")
-	)
-	(wire
-		(pts
 			(xy 269.24 119.38) (xy 254 119.38)
 		)
 		(stroke
@@ -7572,7 +7182,7 @@
 		(uuid "17dfbbb7-29df-4d3c-b57f-56ad4041d850")
 	)
 	(label "Vin"
-		(at 72.39 22.86 0)
+		(at 67.31 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9265,6 +8875,153 @@
 	)
 	(symbol
 		(lib_id "ISI-Connector_JST:Conn_01x06_Pin")
+		(at 274.32 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "411b593e-2866-4088-bce7-dbb67686bca4")
+		(property "Reference" "J3"
+			(at 273.685 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Driver 2"
+			(at 273.685 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Connector_JST:JST_XH_B6B-XH-AM_1x06_P2.50mm_Long_Vertical"
+			(at 274.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 274.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "d1240448-0f52-4703-9251-7664eeed0a25")
+		)
+		(pin "2"
+			(uuid "c96ad432-21aa-4cc4-9b87-68ac454ec722")
+		)
+		(pin "4"
+			(uuid "9a395d03-4439-47f1-a8a3-cd1df3d7df1d")
+		)
+		(pin "5"
+			(uuid "182c0259-f9e3-4721-ac9c-ef9d5679a8a1")
+		)
+		(pin "1"
+			(uuid "ae40e22e-6618-4e6d-b773-c9c95dba0b39")
+		)
+		(pin "3"
+			(uuid "b7ce59f2-e039-4f3f-81c2-3cf0dca25125")
+		)
+		(instances
+			(project "Atlas V"
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Connector_JST:Conn_01x02_Pin")
+		(at 57.15 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41610826-161a-466d-b092-fbb27d65158b")
+		(property "Reference" "J4"
+			(at 57.785 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Sortie batterie pour buck"
+			(at 57.785 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Long_Vertical"
+			(at 57.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 57.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1efca798-2a4d-4958-b858-489584417286")
+		)
+		(pin "1"
+			(uuid "72284384-97e6-448b-8e72-e43d4237d4fa")
+		)
+		(instances
+			(project ""
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Connector_JST:Conn_01x06_Pin")
 		(at 78.74 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9495,74 +9252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ISI-Connector_JST:Conn_01x02_Pin")
-		(at 22.86 251.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "474f56bc-7f23-4c0a-8edf-b838e6ab497b")
-		(property "Reference" "J2"
-			(at 23.495 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VBatt"
-			(at 23.495 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ISI-Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Long_Vertical"
-			(at 22.86 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 22.86 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3e92d3ac-d743-4fae-93e5-e52b5b4aa04c")
-		)
-		(pin "1"
-			(uuid "18a4f1be-705e-4c90-9c63-8123b8cc358d")
-		)
-		(instances
-			(project "Atlas V"
-				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ISI-IC:LM1117MPX-3.3")
 		(at 186.69 22.86 0)
 		(unit 1)
@@ -9695,86 +9384,6 @@
 			(project "Atlas V"
 				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ISI-Connector_PinHeader_2.54mm:Conn_01x06_Pin")
-		(at 274.32 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50f5c592-c016-4357-a182-a8e64af953c9")
-		(property "Reference" "Pinheader2"
-			(at 273.685 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Driver 2"
-			(at 273.685 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ISI-Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Long_Vertical"
-			(at 274.32 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 274.32 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6ce5550f-c010-4cd9-8788-96cdd4a20361")
-		)
-		(pin "5"
-			(uuid "a5521589-925a-406a-88dc-67f7c8cfd31b")
-		)
-		(pin "1"
-			(uuid "8cd4cf11-ec3d-4be7-888f-3144ec5fce1c")
-		)
-		(pin "2"
-			(uuid "ce00c68a-bcfb-4144-b87e-d503aaded4bb")
-		)
-		(pin "3"
-			(uuid "9d8cd37b-d2bc-4141-9194-15afede24bb3")
-		)
-		(pin "6"
-			(uuid "57629219-832f-4fbe-90bd-e4c83791a6e6")
-		)
-		(instances
-			(project "Atlas V"
-				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
-					(reference "Pinheader2")
 					(unit 1)
 				)
 			)
@@ -10463,182 +10072,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ISI-Connector_Wurth:691321100002")
-		(at 119.38 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84fc43ff-de13-4aa0-ab8f-af9a782cb3c9")
-		(property "Reference" "J4"
-			(at 120.65 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Connecteur alim driver 2"
-			(at 123.952 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ISI-Connector_Wurth:691321100002"
-			(at 119.38 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/redexpert/spec/691321100002?ae"
-			(at 119.38 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SERIE 3211 - 3.50MM VERTICAL PCB HEADER WR-TBL"
-			(at 119.38 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ParteNumber" "691321100002"
-			(at 119.38 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Emplacement" "à déterminer"
-			(at 119.38 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46978602-08db-4a1c-aae5-1377651d7066")
-		)
-		(pin "2"
-			(uuid "9fe454cf-4178-41b3-a192-441f99e7f519")
-		)
-		(instances
-			(project "Atlas V"
-				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ISI-Connector_Wurth:691321100002")
-		(at 119.38 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "883b7b34-2fbf-491f-870e-03617938d79d")
-		(property "Reference" "J1"
-			(at 120.65 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Alim PCB 6V"
-			(at 130.048 28.448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "ISI-Connector_Wurth:691321100002"
-			(at 119.38 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/redexpert/spec/691321100002?ae"
-			(at 119.38 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SERIE 3211 - 3.50MM VERTICAL PCB HEADER WR-TBL"
-			(at 119.38 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ParteNumber" "691321100002"
-			(at 119.38 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Emplacement" "à déterminer"
-			(at 119.38 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "339bb164-47d0-44ce-972e-12a787131dd4")
-		)
-		(pin "2"
-			(uuid "f5cf85cf-e741-4785-b42e-dcecba56690a")
-		)
-		(instances
-			(project ""
-				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 336.55 134.62 270)
 		(unit 1)
@@ -10993,6 +10426,86 @@
 		)
 	)
 	(symbol
+		(lib_id "ISI-Connector_JST:Conn_01x06_Pin")
+		(at 274.32 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a80fbb58-1ffe-44f8-8f5f-84da3bf7d020")
+		(property "Reference" "J1"
+			(at 273.685 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Driver 1"
+			(at 273.685 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Connector_JST:JST_XH_B6B-XH-AM_1x06_P2.50mm_Long_Vertical"
+			(at 274.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 274.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "5a518de8-f18e-489f-ae34-396018f7df8c")
+		)
+		(pin "2"
+			(uuid "40ee0f69-5782-40e3-b546-25465f28b7a2")
+		)
+		(pin "4"
+			(uuid "37985a89-6f5f-4859-afd4-1ce8ce6536bd")
+		)
+		(pin "5"
+			(uuid "7a7a3ee5-cb18-4598-96aa-13928588808b")
+		)
+		(pin "1"
+			(uuid "edeae4b8-282c-4085-b729-979a0a979635")
+		)
+		(pin "3"
+			(uuid "31b47701-5156-4965-8f94-7d98c937b65c")
+		)
+		(instances
+			(project ""
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 209.55 0)
 		(unit 1)
@@ -11120,94 +10633,6 @@
 			(project "Atlas V"
 				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ISI-Connector_Wurth:691321100002")
-		(at 119.38 36.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac3a4941-ed2e-4ab8-96e5-27d6beca8151")
-		(property "Reference" "J3"
-			(at 120.65 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Connecteur alim driver 1"
-			(at 136.398 36.322 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "ISI-Connector_Wurth:691321100002"
-			(at 119.38 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/redexpert/spec/691321100002?ae"
-			(at 119.38 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SERIE 3211 - 3.50MM VERTICAL PCB HEADER WR-TBL"
-			(at 119.38 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ParteNumber" "691321100002"
-			(at 119.38 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Emplacement" "à déterminer"
-			(at 119.38 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c344f008-9d87-47e6-ad76-9aabfd6d14fe")
-		)
-		(pin "2"
-			(uuid "603f342a-26ae-418e-9047-d61e6364544c")
-		)
-		(instances
-			(project "Atlas V"
-				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -11380,6 +10805,142 @@
 			(project "Atlas V"
 				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
 					(reference "JST3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Connector_JST:Conn_01x02_Pin")
+		(at 119.38 26.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b283eae5-c774-4bb7-b1cc-1bfeb6f01b99")
+		(property "Reference" "J6"
+			(at 127.508 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Alim PCB 6V"
+			(at 127.508 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Long_Vertical"
+			(at 119.38 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 119.38 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1411322-65a5-4ffb-a1a2-93ba36f0ead7")
+		)
+		(pin "2"
+			(uuid "8cbd345d-3a3c-4a5f-bb4c-99c8c11f84bc")
+		)
+		(instances
+			(project ""
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Connector_JST:Conn_01x02_Pin")
+		(at 119.38 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b49fb3c5-0410-4859-9e69-b4b5f123b65d")
+		(property "Reference" "J7"
+			(at 133.858 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Connecteur alim driver 1"
+			(at 134.112 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Long_Vertical"
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53a2a884-1174-423e-a4e7-af77ed5ff175")
+		)
+		(pin "2"
+			(uuid "fd918c4f-bb13-4059-b920-96b8b3dcce03")
+		)
+		(instances
+			(project "Atlas V"
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -11834,6 +11395,76 @@
 		)
 	)
 	(symbol
+		(lib_id "ISI-Connector_Generic:XT60_M")
+		(at 20.32 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d24e9c99-226c-4634-8596-832e60844793")
+		(property "Reference" "J8"
+			(at 22.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CON 1x2 POLARIZED"
+			(at 20.32 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ISI-Connector_Generic:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+			(at 20.32 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c47dfa5c-1223-4af8-88e0-f38444f9363d")
+		)
+		(pin "1"
+			(uuid "ea3c4b84-2495-4785-a6fe-0e2812aaf9e4")
+		)
+		(instances
+			(project ""
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ISI-Connector_JST:Conn_01x04_Pin")
 		(at 99.06 195.58 0)
 		(unit 1)
@@ -11989,33 +11620,33 @@
 		)
 	)
 	(symbol
-		(lib_id "ISI-Connector_PinHeader_2.54mm:Conn_01x06_Pin")
-		(at 274.32 93.98 0)
+		(lib_id "ISI-Connector_JST:Conn_01x02_Pin")
+		(at 119.38 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e82d58e6-7f24-40ba-b6c2-1fe2b79b9352")
-		(property "Reference" "Pinheader1"
-			(at 273.685 83.82 0)
+		(uuid "eba530c0-588a-4ad2-a031-38713af59b12")
+		(property "Reference" "J2"
+			(at 132.08 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Driver 1"
-			(at 273.685 86.36 0)
+		(property "Value" "Connecteur alim driver 2"
+			(at 132.08 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ISI-Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Long_Vertical"
-			(at 274.32 93.98 0)
+		(property "Footprint" "ISI-Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Long_Vertical"
+			(at 119.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12024,7 +11655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 93.98 0)
+			(at 119.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12032,37 +11663,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 274.32 93.98 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 119.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "0e3f77c3-a587-43ff-82ef-6849dd997a6d")
-		)
-		(pin "5"
-			(uuid "390d4938-b2bb-43b2-97f3-f46b2ed4469c")
 		)
 		(pin "1"
-			(uuid "e2409457-4727-4b55-8bfe-5aaf73fcf774")
+			(uuid "cffe4ba0-2d9f-4f75-b69d-603dbeaeaeb4")
 		)
 		(pin "2"
-			(uuid "60ec6bc5-7731-4922-b39b-7785a8a432a4")
-		)
-		(pin "3"
-			(uuid "e0a03784-6ec8-46ce-9878-68eb4cc7e158")
-		)
-		(pin "6"
-			(uuid "4d184deb-ad70-425f-a4a1-c675635ecaa3")
+			(uuid "0c41b187-852f-45d5-9609-a5e1ed875139")
 		)
 		(instances
-			(project ""
+			(project "Atlas V"
 				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
-					(reference "Pinheader1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
