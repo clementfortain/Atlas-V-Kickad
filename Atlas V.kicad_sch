@@ -6353,6 +6353,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 22.86) (xy 77.47 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947e7c89-f7ec-4e8a-a1c7-47a0c9b28cc9")
+	)
+	(wire
+		(pts
 			(xy 107.95 162.56) (xy 113.03 162.56)
 		)
 		(stroke
@@ -7181,16 +7191,6 @@
 		)
 		(uuid "17dfbbb7-29df-4d3c-b57f-56ad4041d850")
 	)
-	(label "Vin"
-		(at 67.31 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1bebe0d4-583b-4be4-a7ef-b5cff40363b6")
-	)
 	(label "XSHUT2"
 		(at 299.72 132.08 0)
 		(effects
@@ -7690,6 +7690,16 @@
 			(justify right bottom)
 		)
 		(uuid "bb351df7-42a4-4664-a23c-ba7d19587f42")
+	)
+	(label "Vin"
+		(at 68.58 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c235afd4-7db6-477d-b384-c316a93df351")
 	)
 	(label "D2 GND"
 		(at 261.62 116.84 0)
@@ -8270,6 +8280,73 @@
 			(project "Atlas V"
 				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
 					(reference "JST7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1663a124-657b-4325-99ed-6fcddf8e1293")
+		(property "Reference" "#PWR024"
+			(at 68.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19cdcd11-70c6-4602-abfe-80b77e9e7c14")
+		)
+		(instances
+			(project "Atlas V"
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8970,7 +9047,7 @@
 				)
 			)
 		)
-		(property "Value" "Sortie batterie pour buck"
+		(property "Value" "Sortie pcb vers buck"
 			(at 57.785 20.32 0)
 			(effects
 				(font
