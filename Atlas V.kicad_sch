@@ -152,6 +152,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ISI-Capacitor:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ISI-Connector_Generic:XT60_M"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1300,6 +1461,142 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ISI-Divers:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ISI-Divers:Fuseholder_TR5_Littelfuse_No560_No460"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4703,6 +5000,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_US_1206_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol 1206 SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "Voir farde de resistance"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Emplacement" "Voir farde de resistance"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_1206_1_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1206_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -5073,7 +5561,7 @@
 	)
 	(text "+VBatt"
 		(exclude_from_sim no)
-		(at 22.352 248.158 0)
+		(at 16.002 248.158 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5134,6 +5622,18 @@
 		(uuid "29ecd198-b612-47b1-bf4f-9aa74f7f98d3")
 	)
 	(junction
+		(at 118.11 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3288d887-f3d8-43d6-b41b-44fd85242330")
+	)
+	(junction
+		(at 160.02 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37d4d3f2-71be-4965-96ba-b961eb906107")
+	)
+	(junction
 		(at 154.94 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5144,6 +5644,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "462c8cd7-b5f8-4a4f-9072-47d8ad135a2a")
+	)
+	(junction
+		(at 160.02 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4842ee1a-c165-4637-8745-9b0a606b7c23")
 	)
 	(junction
 		(at 100.33 26.67)
@@ -5170,10 +5676,22 @@
 		(uuid "9be388f9-d54d-4a97-8cb6-4b31f5eb7d42")
 	)
 	(junction
+		(at 217.17 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef653cc-b98d-4586-917a-1e834cca5412")
+	)
+	(junction
 		(at 100.33 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4cbb65d-5fde-4db0-a5cf-6a30537b6143")
+	)
+	(junction
+		(at 67.31 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdfadb85-7df2-46db-9290-8fcc9c5cb8e4")
 	)
 	(junction
 		(at 170.18 22.86)
@@ -5380,10 +5898,6 @@
 		(uuid "e3361065-3b2b-43b6-a188-8e214fa09c72")
 	)
 	(no_connect
-		(at 161.29 190.5)
-		(uuid "e4607029-d105-4d58-83e1-2ff3c3f8abf0")
-	)
-	(no_connect
 		(at 227.33 177.8)
 		(uuid "e89b9d02-6df9-4d6c-8ea2-36e91aa0ff49")
 	)
@@ -5394,10 +5908,6 @@
 	(no_connect
 		(at 161.29 142.24)
 		(uuid "e971c362-e9e4-4fbd-b9b3-7db7b7a167f1")
-	)
-	(no_connect
-		(at 161.29 187.96)
-		(uuid "f3e65131-7e05-442e-b82d-7a81e3cd88c3")
 	)
 	(no_connect
 		(at 227.33 154.94)
@@ -5575,6 +6085,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 185.42) (xy 161.29 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f60c3b5-9c54-49ac-8a5e-4e3741e48c93")
+	)
+	(wire
+		(pts
 			(xy 170.18 34.29) (xy 170.18 30.48)
 		)
 		(stroke
@@ -5625,7 +6145,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 251.46) (xy 33.02 251.46)
+			(xy 21.59 251.46) (xy 24.13 251.46)
 		)
 		(stroke
 			(width 0)
@@ -5635,7 +6155,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 254) (xy 29.21 256.54)
+			(xy 22.86 254) (xy 22.86 256.54)
 		)
 		(stroke
 			(width 0)
@@ -5665,6 +6185,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 24.13) (xy 226.06 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3311b25e-c4a6-4e0e-b7dd-13bef9da3f6b")
+	)
+	(wire
+		(pts
 			(xy 217.17 38.1) (xy 217.17 22.86)
 		)
 		(stroke
@@ -5685,6 +6215,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 119.38) (xy 161.29 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d25866-cd9c-4e56-ae1f-76608e76492c")
+	)
+	(wire
+		(pts
 			(xy 157.48 205.74) (xy 157.48 203.2)
 		)
 		(stroke
@@ -5702,16 +6242,6 @@
 			(type default)
 		)
 		(uuid "37bec19e-eb55-4412-ae24-a86245092883")
-	)
-	(wire
-		(pts
-			(xy 153.67 116.84) (xy 161.29 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38ea9f70-bbe4-4945-84d9-8fa6ce89dc8a")
 	)
 	(wire
 		(pts
@@ -5815,6 +6345,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 22.86) (xy 226.06 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad36266-2930-44cd-bf47-30327d003993")
+	)
+	(wire
+		(pts
 			(xy 227.33 149.86) (xy 351.79 149.86)
 		)
 		(stroke
@@ -5825,13 +6365,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 172.72) (xy 59.69 172.72)
+			(xy 76.2 172.72) (xy 67.31 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4e15e850-e779-4edf-a66f-efd1b824b369")
+	)
+	(wire
+		(pts
+			(xy 118.11 107.95) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecb136e-e718-4f3e-9adc-e9375714d0d6")
 	)
 	(wire
 		(pts
@@ -5885,7 +6435,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 185.42) (xy 161.29 185.42)
+			(xy 226.06 31.75) (xy 226.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d3429a-a8e5-4e86-8fc4-23c8c68b785c")
+	)
+	(wire
+		(pts
+			(xy 154.94 185.42) (xy 160.02 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5972,6 +6532,16 @@
 			(type default)
 		)
 		(uuid "5ef69395-0e64-46c9-9339-7bd24338b337")
+	)
+	(wire
+		(pts
+			(xy 67.31 167.64) (xy 67.31 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa0732b-3a7e-4292-9f7f-0fd14f9229c3")
 	)
 	(wire
 		(pts
@@ -6125,6 +6695,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 190.5) (xy 160.02 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cdc2d5-1d0b-492e-9ac5-4e3fe85c5376")
+	)
+	(wire
+		(pts
 			(xy 100.33 34.29) (xy 100.33 26.67)
 		)
 		(stroke
@@ -6155,6 +6735,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 105.41) (xy 118.11 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8f0c2f-74b8-4918-a814-2389f0dc0927")
+	)
+	(wire
+		(pts
 			(xy 154.94 147.32) (xy 154.94 152.4)
 		)
 		(stroke
@@ -6162,6 +6752,16 @@
 			(type default)
 		)
 		(uuid "7e477bcb-f67a-415b-ba6b-6d1d53843323")
+	)
+	(wire
+		(pts
+			(xy 161.29 190.5) (xy 160.02 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f18a944-5b7e-4592-ba41-4186f1500071")
 	)
 	(wire
 		(pts
@@ -6182,6 +6782,16 @@
 			(type default)
 		)
 		(uuid "8067224d-fed6-47fb-904f-3ee36e412c42")
+	)
+	(wire
+		(pts
+			(xy 31.75 251.46) (xy 33.02 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d17d02-8839-4dda-8eac-4efc0c1f2fe2")
 	)
 	(wire
 		(pts
@@ -6235,6 +6845,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 116.84) (xy 161.29 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b9e28a-5860-45d6-bced-3e41a091c2a2")
+	)
+	(wire
+		(pts
 			(xy 135.89 147.32) (xy 154.94 147.32)
 		)
 		(stroke
@@ -6252,6 +6872,26 @@
 			(type default)
 		)
 		(uuid "88d3b55d-44d7-47ba-ade4-4ad609ed59fa")
+	)
+	(wire
+		(pts
+			(xy 161.29 187.96) (xy 160.02 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89fd9379-734f-4182-8385-8ce3290f8b01")
+	)
+	(wire
+		(pts
+			(xy 118.11 119.38) (xy 118.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b316d61-cf37-482a-8959-ba5dd44bdcf1")
 	)
 	(wire
 		(pts
@@ -6282,6 +6922,16 @@
 			(type default)
 		)
 		(uuid "8cf86b44-053a-4fe3-a5e0-7a8cac59edb9")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 127 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0d17b7-65a1-45dc-bb8b-8b7c073f3190")
 	)
 	(wire
 		(pts
@@ -6395,7 +7045,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 254) (xy 29.21 254)
+			(xy 21.59 254) (xy 22.86 254)
 		)
 		(stroke
 			(width 0)
@@ -6615,16 +7265,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 119.38) (xy 161.29 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2577c18-288e-47e9-9a2e-71f4c0180c8f")
-	)
-	(wire
-		(pts
 			(xy 83.82 165.1) (xy 128.27 165.1)
 		)
 		(stroke
@@ -6735,7 +7375,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 142.24) (xy 135.89 142.24)
+			(xy 135.89 142.24) (xy 153.67 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6935,6 +7575,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 137.16) (xy 153.67 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51998d4-aad4-47a1-9eae-c70b98d253f2")
+	)
+	(wire
+		(pts
 			(xy 154.94 182.88) (xy 154.94 185.42)
 		)
 		(stroke
@@ -6992,6 +7642,16 @@
 			(type default)
 		)
 		(uuid "ec897128-23b8-47a5-bd87-d15d61b2eb8f")
+	)
+	(wire
+		(pts
+			(xy 67.31 172.72) (xy 59.69 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee830d27-234e-470b-9879-1c0a5fada55b")
 	)
 	(wire
 		(pts
@@ -7062,6 +7722,16 @@
 			(type default)
 		)
 		(uuid "f3aad007-f2e1-4209-bca9-dcfaf01a1dd0")
+	)
+	(wire
+		(pts
+			(xy 160.02 187.96) (xy 160.02 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4283161-62e6-43b7-b9dc-8abd8ce11625")
 	)
 	(wire
 		(pts
@@ -8441,6 +9111,76 @@
 		)
 	)
 	(symbol
+		(lib_id "ISI-Capacitor:C_Polarized")
+		(at 226.06 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e98aad7-f73b-4b20-af47-9ef8cf22443f")
+		(property "Reference" "C3"
+			(at 229.87 25.7809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µF"
+			(at 229.87 28.3209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Capacitor:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder"
+			(at 227.0252 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 226.06 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64bfb766-b82f-4d5a-b4fe-8f11f3bab35b")
+		)
+		(pin "2"
+			(uuid "463df9f8-0209-40c6-8fc8-3d809ef213fb")
+		)
+		(instances
+			(project "Atlas V"
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 64.77 267.97 0)
 		(unit 1)
@@ -8508,7 +9248,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 256.54 0)
+		(at 22.86 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8517,7 +9257,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f598db2-968a-4660-971a-a6e473a77dbb")
 		(property "Reference" "#PWR08"
-			(at 29.21 262.89 0)
+			(at 22.86 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,7 +9266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 261.62 0)
+			(at 22.86 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8534,7 +9274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 256.54 0)
+			(at 22.86 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8543,7 +9283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 256.54 0)
+			(at 22.86 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8552,7 +9292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 256.54 0)
+			(at 22.86 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,6 +10707,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 118.11 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "787607ae-232a-4ecc-850b-cf635777552d")
+		(property "Reference" "#PWR030"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e81ec95-22c6-4760-840e-2500341c43a5")
+		)
+		(instances
+			(project "Atlas V"
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7924bc61-f12c-486a-b3d6-9045f32c2919")
+		(property "Reference" "#PWR027"
+			(at 226.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4dee1ea-b5ed-41b6-884a-e6af0caa3967")
+		)
+		(instances
+			(project "Atlas V"
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 306.07 124.46 270)
 		(unit 1)
@@ -10028,6 +10900,95 @@
 			(project "Atlas V"
 				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_US_1206_1")
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 127 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e0d1c67-b5dd-4ef0-841b-44e95103c894")
+		(property "Reference" "R3"
+			(at 129.54 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 129.54 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 128.016 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "Voir farde de resistance"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Emplacement" "Voir farde de resistance"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "635c6be9-f55a-4610-9687-802a150c4a73")
+		)
+		(pin "2"
+			(uuid "18b52382-a5cd-44c8-9eae-c956da6b2b10")
+		)
+		(instances
+			(project "Atlas V"
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10165,6 +11126,74 @@
 			(project "Atlas V"
 				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISI-Divers:Fuse")
+		(at 27.94 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "871f9bd7-7c20-414d-a7d5-7ab985638ed4")
+		(property "Reference" "F2"
+			(at 27.94 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 27.94 247.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ISI-Divers:Fuseholder_TR5_Littelfuse_No560_No460"
+			(at 27.94 253.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 27.94 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3678d86-f218-4ba6-a24c-0600c22fcad3")
+		)
+		(pin "1"
+			(uuid "23d0e2c4-816c-4006-b63b-9ae09a852e20")
+		)
+		(instances
+			(project "Atlas V"
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -10738,6 +11767,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 67.31 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2107724-9fa6-40aa-986f-3aad78211139")
+		(property "Reference" "#PWR028"
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6dbe04f-b434-47d0-bc34-ba71fb77f659")
+		)
+		(instances
+			(project "Atlas V"
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ISI-Modules:NRF24L01P-Module-E01ML01DP5_Breakout")
 		(at 217.17 53.34 0)
 		(unit 1)
@@ -11261,6 +12356,76 @@
 		)
 	)
 	(symbol
+		(lib_id "ISI-Resistor:R_US_1206")
+		(at 118.11 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bad956b7-2b35-479e-a0b6-d3edee1460cf")
+		(property "Reference" "R2"
+			(at 120.65 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 120.65 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ISI-Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 119.126 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol 1206 SMD"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64c88a51-a9b2-4284-9b37-ac4d9b08523e")
+		)
+		(pin "2"
+			(uuid "f3efbda9-c247-4a9c-b714-3550f0e9d6f4")
+		)
+		(instances
+			(project "Atlas V"
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ISI-Modules:module_mpu6050")
 		(at 127 80.01 0)
 		(mirror y)
@@ -11561,7 +12726,7 @@
 	)
 	(symbol
 		(lib_id "ISI-Connector_Generic:XT60_M")
-		(at 20.32 248.92 0)
+		(at 13.97 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11570,7 +12735,7 @@
 		(fields_autoplaced yes)
 		(uuid "d24e9c99-226c-4634-8596-832e60844793")
 		(property "Reference" "J8"
-			(at 22.86 246.38 0)
+			(at 16.51 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11578,7 +12743,7 @@
 			)
 		)
 		(property "Value" "CON 1x2 POLARIZED"
-			(at 20.32 248.92 0)
+			(at 13.97 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11588,7 +12753,7 @@
 			)
 		)
 		(property "Footprint" "ISI-Connector_Generic:AMASS_XT60-M_1x02_P7.20mm_Vertical"
-			(at 20.32 248.92 0)
+			(at 13.97 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11597,7 +12762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 248.92 0)
+			(at 13.97 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11606,7 +12771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 248.92 0)
+			(at 13.97 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11845,6 +13010,72 @@
 			(project "Atlas V"
 				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4e9b933-0bc1-44f5-84eb-3fedd550f471")
+		(property "Reference" "#PWR029"
+			(at 153.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22164346-9268-49ee-9a31-9961abe8a0ce")
+		)
+		(instances
+			(project "Atlas V"
+				(path "/ce8fccda-df24-434a-95b7-65e08a15d0db"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
